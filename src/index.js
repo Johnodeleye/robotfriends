@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import Card from './Card';
 import reportWebVitals from './reportWebVitals';
+import 'tachyons';
+import App from './containers/App';
+
+//FOR ANY STUFF THAT IS NOT EXPORT DEFAULT, YOU HAVE TO WRAP THEM IN THE {} WHEN IMPORTING THEM
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App/>
   </React.StrictMode>
 );
 
